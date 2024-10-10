@@ -17,14 +17,41 @@ This project implements a machine learning model to predict sales performance ba
 ## Introduction
 Sales prediction is vital for businesses to formulate effective marketing strategies and optimize budgets. This project focuses on building a linear regression model to predict sales from advertising expenditures, helping drive informed decision-making.
 
-## Dataset
-The dataset used in this project is obtained from a CSV file named `advertising.csv`, which includes the following columns:
-- **TV:** Amount spent on TV advertising (in thousands).
-- **Radio:** Amount spent on Radio advertising (in thousands).
-- **Newspaper:** Amount spent on Newspaper advertising (in thousands).
-- **Sales:** Sales generated (in thousands).
 
-The dataset consists of **200 entries** and can be explored through the `advert_df` DataFrame.
+
+## Dataset
+
+The dataset used for this project is sourced from Kaggle and can be found at the following link: [Advertising Dataset](https://www.kaggle.com/datasets/ashydv/advertising-dataset).
+
+### Dataset Overview
+
+The Advertising dataset contains historical sales data and advertising expenditures across three media channels: TV, Radio, and Newspaper. Each row in the dataset represents a different observation that includes:
+
+- **Sales:** The sales outcome for a given period.
+- **TV:** The amount spent on television advertising in thousands of dollars.
+- **Radio:** The amount spent on radio advertising in thousands of dollars.
+- **Newspaper:** The amount spent on newspaper advertising in thousands of dollars.
+
+### Data Description and Structure
+
+| Column        | Description                                     |
+|---------------|-------------------------------------------------|
+| `Sales`      | The sales achieved in thousands of dollars.     |
+| `TV`         | Advertising spend on TV in thousands of dollars. |
+| `Radio`      | Advertising spend on Radio in thousands of dollars. |
+| `Newspaper`   | Advertising spend on Newspaper in thousands of dollars. |
+
+### Data Source
+
+- **Source:** The dataset is publicly available on Kaggle and can be accessed at the following link: [Advertising Dataset](https://www.kaggle.com/datasets/ashydv/advertising-dataset).
+
+### Usage
+
+This dataset was analyzed using Python and relevant libraries (Pandas, NumPy, Scikit-learn) for data processing and linear regression modeling to predict sales based on advertising spend. Visualizations were created to better understand the relationships between advertising expenditure across different media channels and sales performance.
+
+### Additional Notes
+
+This dataset is essential for building a regression model aimed at providing insights into how different marketing channels impact sales outcomes, helping businesses allocate their advertising budgets more effectively.
 
 ## Methodology
 1. **Data Preprocessing**
